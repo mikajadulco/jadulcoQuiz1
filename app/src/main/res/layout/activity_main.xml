@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jadulco.jadulcoquiz1.MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    >
+
+        <ListView
+            android:layout_marginTop="100px"
+            android:id="@+id/lvAndroid"
+            android:layout_width="400px"
+            android:layout_height="400px"
+            android:layout_centerHorizontal="true"
+            android:scrollbars="none"
+            >
+
+        </ListView>
+
+
+        <Button
+            android:id="@+id/btHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOME"
+            android:layout_below="@+id/lvAndroid"
+            android:layout_marginTop="150px"
+            android:layout_marginLeft="20px"
+            />
+
+        <Button
+            android:id="@+id/bt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:layout_below="@+id/lvAndroid"
+            android:layout_toRightOf="@+id/btHome"
+            android:layout_marginTop="150px"
+            />
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:layout_below="@+id/lvAndroid"
+            android:layout_toRightOf="@+id/bt1"
+            android:layout_marginTop="150px"/>
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:layout_below="@+id/lvAndroid"
+            android:layout_toRightOf="@+id/bt2"
+            android:layout_marginTop="150px"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">jadulcoQuiz1</string>
+
+    <string-array name="codename">
+        <item> Nougat </item>
+        <item> Jelly Bean</item>
+        <item> Marshmallow </item>
+    </string-array>
+
+    <string-array name="version">
+        <item> ver 7.0 - 7.1.2 </item>
+        <item> ver 4.1 – 4.3.1 </item>
+        <item> ver 6.0 – 6.0.1 </item>
+    </string-array>
+
+    <string-array name="api">
+        <item> 24 – 25 </item>
+        <item> 16 – 18 </item>
+        <item> 23 </item>
+    </string-array>
+
+    <string-array name="date">
+        <item> August 22, 2016 </item>
+        <item> July 9, 2012 </item>
+        <item> October 5, 2015 </item>
+    </string-array>
+
+</resources>
